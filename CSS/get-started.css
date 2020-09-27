@@ -1,0 +1,97 @@
+.primary-vendor{
+    padding: 0;
+}
+
+.secondary-background{
+    background-color: var(--Primary-color);
+}
+
+.secondary-background .white-image h6{
+    color: var(--white);
+    letter-spacing: .3px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.get-started label{
+    color: var(--light-gray);
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    letter-spacing: -0.63px;
+}
+
+#referral{
+    color: var(--light-green);
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -0.63px;
+}
+
+.get-started p{
+    font-size: 18px;
+    color: var(--light-gray);
+    font-weight: 600;
+}
+
+.get-started .item {
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--light-green);
+}
+
+.item input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.requestotp .btn{
+    background-color: var(--Primary-color);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.63px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+    border: solid 1px rgba(0, 0, 0, 0.12);
+}
+
+/* SETTLEMENT BUTTONS */
+
+.settle-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.settle-btn .btn{
+    padding: .5rem 3.5rem;
+}
+
+.btn a{
+    color: var(--white);
+}
+
+.requestotp .btn-white{
+    background-color: var(--white);
+    color: var(--Primary-color);
+}
+
+.requestotp .btn-green{
+    background-color: var(--light-green);
+}
+
+.requestotp .btn-gray{
+    background-color: var(--light-gray);
+}
+
+.get-started .privacy-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 0 3rem 0;
+}
+
+.get-started .privacy-link a{
+    color: var(--deep-black);
+    font-weight: 700;
+    font-size: 20px;
+}

@@ -1,0 +1,240 @@
+:root{
+    --Montesarrat: 'Montserrat', sans-serif;
+    --Primary-color: #ff7500;
+    --light-gray:#4a4a4a;
+    --dark-gray:rgba(0, 0, 0, 0.87);
+    --gray: #2d2d2d;
+    --deep-black: #000000;
+    --white: #ffff;
+    --light-green: #5a9915;
+    --error: #ff2500;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--Montesarrat);
+}
+
+.main-image{
+    padding-top: 6rem;
+}
+
+.primary-vendor a h6{
+    color: var(--Primary-color);
+    font-size: 30px;
+}
+
+.primary-vendor .main-vendor{
+    color: var(--Primary-color);
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.primary-vendor #wht{
+    font-weight: 600;
+}
+
+.primary-vendor .copyright{
+    font-size: 18px;
+}
+
+
+/* WELCOME PAGE */
+.welcome{
+    background-color: var(--Primary-color);
+    height: 100vh;
+}
+
+.welcome .main-vendor-white{
+    color: var(--white);
+    padding-top: 5rem;
+    font-weight: 600;
+}
+
+.green{
+    background-color: var(--light-green);
+    padding-bottom: 12rem;
+}
+
+.green-background{
+    background-image: url(../assets/splash.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.green-img {
+    position: relative;
+    width: 100%;
+    top: 6rem;
+    right: 5rem;
+}
+
+.green-img .green-top{
+    position: relative;
+    top: 4rem;
+}
+
+.green-top h5{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.94px;
+    color: var(--white);
+}
+
+.green-top p{
+    font-size: 19px;
+    font-weight: normal;
+    color: var(--white);
+}
+
+@media (max-width: 320px){
+    .green-img {
+        position: relative;
+        width: 100%;
+        top: 7rem;
+        right: 7rem;
+    }
+}
+
+/* PRIVACY PAGE */
+.container.privacy {
+    background-color: #efefef;
+}
+
+.mb-4 #black{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.privacy-notes{
+    background-color: var(--white);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1.2rem;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* SUPPORT PAGE */
+.support{
+    background-color: #efefef;
+}
+
+.support h5, sub{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.support sub{
+    font-size: 18px;
+}
+
+.form-group{
+    margin: 0;
+}
+
+.form-group textarea{
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* SUCCESS SUPPORT PAGE */
+.privacy-notes p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.primary-vendor .support-success{
+    padding-bottom: 10rem;
+}
+
+.support-success h5{
+    font-size: 20px;
+}
+
+/* QRCODE PAGE */
+.primary-vendor #qr-code{
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+}
+
+#qr-code p {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--light-gray);
+}
+
+/* FOOTER CSS */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    padding: .7rem ;
+}
+
+.footer-img a{
+    list-style: none;
+}
+
+.footer-img figcaption{
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--light-gray);
+    line-height: 2.5;
+    letter-spacing: -0.38px;
+}
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+}
+ 
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 72px;
+  padding: .8rem 1.4rem;
+  margin-right: -1.5rem;
+  background-color: var(--white);
+  width: 100vw;
+  /* height: 100vh; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropup-content a img{
+    margin-right: 1.3rem;
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+  color: var(--light-gray);
+  padding: 10px 16px;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.47px;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {background-color: #ddd}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup::after .dropup-content{
+    display: none;
+}
